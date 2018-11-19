@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Chosen gifts list
+   ========================================================================== */
+.c-chosen-gifts-list {
+    @include helper--list;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+}
+.c-chosen-gifts-list__item--six {
+    grid-row-end: span 2;
+}
+.c-chosen-gifts-list__item--eight {
+    grid-row-end: span 2;
+    grid-column-end: span 2;
+}
+.c-chosen-gifts-list__item--thirteen {
+    grid-column-end: span 2;
+}
+.c-chosen-gifts-list__item--seventeen {
+    grid-column-end: span 2;
+}

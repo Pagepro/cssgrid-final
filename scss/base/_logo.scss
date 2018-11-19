@@ -1,0 +1,51 @@
+/* ==========================================================================
+   Logo
+   ========================================================================== */
+
+.o-logo-wrapper {
+    display: flex;
+    overflow: hidden;
+
+    width: $size-logo-wrapper;
+    height: $size-logo-wrapper;
+
+    border-radius: 100%;
+    background-color: $color-brand-2;
+
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-logo-wrapper .c-label {
+    position: absolute;
+
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+
+    border: 0;
+}
+
+.o-logo {
+    width: 1em;
+    height: 1em;
+
+    font-size: $size-logo;
+
+    color: $color-white;
+}
+
+@include media('<=phone') {
+    .o-logo-wrapper {
+        width: $size-logo-wrapper-phone;
+        height: $size-logo-wrapper-phone;
+    }
+    .o-logo {
+        font-size: $size-logo-phone;
+    }
+}

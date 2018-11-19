@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Index of scss files
+   ========================================================================== */
+
+/* Normalize
+   ========================================================================== */
+@import "node_modules/normalize.css/normalize";
+
+/* Breakpoint
+   ========================================================================== */
+@import "node_modules/include-media/dist/_include-media";
+
+/* Base
+   ========================================================================== */
+@import "base/reset";
+@import "base/fonts";
+@import "base/variables";
+@import "base/helper-mixins";
+@import "base/logo";
+@import "base/icons";
+@import "base/text-styles";
+@import "base/typography";
+
+/* Components
+   ========================================================================== */
+@import "components/box";
+@import "components/buttons";
+@import "components/copyright";
+@import "components/choosen-gifts-list";
+@import "components/form";
+@import "components/links";
+@import "components/info-box";
+@import "components/header";
+@import "components/hints";
+@import "components/numbered-list";
+@import "components/most-popular-list";
+@import "components/vertical-list";
+@import "components/intro";
+@import "components/points";
+@import "components/points-box";
+@import "components/points-list";
+@import "components/sponsors-list";
+@import "components/tabs";
+@import "components/total-points";
+@import "components/final-project";
+
+/* Layouts and main layout elements
+   ========================================================================== */
+@import "layout/common";
+@import "layout/footer";
+@import "layout/inner";
+@import "layout/main";
+@import "layout/sections";

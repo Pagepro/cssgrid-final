@@ -1,0 +1,20 @@
+/* ==========================================================================
+   Points list
+   ========================================================================== */
+.c-points-list {
+    @include helper--list;
+    display: grid;
+    grid-column-gap: 123px;
+    grid-template-columns: repeat(3, 1fr);
+}
+@include media('<=tablet') {
+    .c-points-list {
+        grid-column-gap: 50px;
+    }
+}
+@include media('<=phone') {
+    .c-points-list {
+        grid-gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}

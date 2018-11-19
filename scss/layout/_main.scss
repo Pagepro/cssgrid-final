@@ -1,0 +1,16 @@
+/* ==========================================================================
+   Main
+   ========================================================================== */
+
+.l-main {
+    position: relative;
+
+    min-height: calc(100vh - 160px - 76px);
+    padding: 30px 0 0;
+
+    background-color: $color-gray;
+}
+
+.l-main .l-inner {
+    padding-bottom: 130px;
+}
